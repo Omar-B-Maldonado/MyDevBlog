@@ -1,0 +1,27 @@
+* {
+    text-align:center;
+    background-color: floralwhite;
+    color: black;
+}
+
+.title {
+    color: forestgreen;
+}
+
+.links {
+    border-style:ridge;
+    background-color:black;
+    border-width: 1px;
+    border-color: forestgreen;
+}
+
+a {
+    color:forestgreen;
+}
+
+p{
+    margin:auto;
+    max-width: 700px;
+    min-width: 300px;
+
+}
