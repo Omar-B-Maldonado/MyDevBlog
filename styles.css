@@ -1,27 +1,120 @@
 * {
+    font-family: monospace, serif;
     text-align:center;
-    background-color: floralwhite;
+    background-color:floralwhite;
     color: black;
 }
 
 .title {
     color: forestgreen;
+    border-top-style: solid;
+    border-top-color: black;
+    text-decoration-line: underline;
+    text-decoration-style:  double;
+    text-decoration-color: black;
+    text-underline-offset: 9px;
 }
 
-.links {
-    border-style:ridge;
-    background-color:black;
-    border-width: 1px;
-    border-color: forestgreen;
+h1 {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
 }
 
-a {
-    color:forestgreen;
+.mini {
+    outline-style: none;
+    background:none;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    rotate: -10deg;
+    right: 50.2%;
+    left:  49.8%;
 }
 
 p{
     margin:auto;
-    max-width: 700px;
+    padding-bottom: 25px;
+    max-width: 600px;
     min-width: 300px;
+    letter-spacing: 0.1px;
+    word-spacing: -2px;
+    font-weight: bold;
+}
 
+img {
+    outline-width: 3px;
+    outline-style:ridge;
+    outline-offset: 7px;
+    outline-color: forestgreen;
+}
+
+#mainGifNote {
+    margin: auto;
+    font-family: "press start 2p";
+    letter-spacing: 0.5px;
+    font-size: 8px;
+    
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    
+    position: relative;
+    bottom: 35px;
+}
+
+.AboutMe {
+    position:relative;
+    bottom: 10px;
+}
+#aboutMeDesc {
+    padding-bottom: 15px;
+}
+
+.gamesContainer {
+    margin:auto;
+    width:         350px;
+    padding-top:    15px;
+    padding-bottom: 30px;
+    
+    background-color:black;
+    
+    outline-width: 3px;
+    outline-style:ridge;
+    outline-offset: 7px;
+    outline-color: forestgreen;
+}
+
+.mainPgLinks {
+    background-color:rgb(40, 40, 40);
+
+    font-family: "press start 2p";
+    font-size: 9px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+
+    padding-top:    4px;
+    padding-bottom: 4px;
+    padding-inline: 5px;
+   
+    outline-style:groove;
+    outline-offset:2px;
+    outline-width: 1px;
+    outline-color: white;
+   
+    color:white;
+    background-color:rgb(68, 68, 68);
+
+    display: inline-block;
+    z-index: 1;
+}
+
+#groupLink {
+    padding-inline: 18.5px;
+    position: relative;
+    right: 4.7px;
+    top: 15px;
+}
+
+.videoGame {
+    font-family: 'press start 2p';
 }
