@@ -9,10 +9,8 @@
     color: forestgreen;
     border-top-style: solid;
     border-top-color: black;
-    text-decoration-line: underline;
-    text-decoration-style:  double;
-    text-decoration-color: black;
-    text-underline-offset: 9px;
+    padding-top: 10px;
+    margin-bottom: 8px;
 }
 
 h1 {
@@ -73,8 +71,11 @@ img {
 .gamesContainer {
     margin:auto;
     width:         350px;
-    padding-top:    15px;
-    padding-bottom: 30px;
+    
+    padding-top:    20px;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    padding-right: 5px;
     
     background-color:black;
     
@@ -82,6 +83,14 @@ img {
     outline-style:ridge;
     outline-offset: 7px;
     outline-color: forestgreen;
+}
+
+#groupContainer {
+    padding-right: 15px;
+}
+
+#myContainer {
+    width: 325px;
 }
 
 .mainPgLinks {
@@ -108,13 +117,49 @@ img {
     z-index: 1;
 }
 
-#groupLink {
+#bottomLink1 {
     padding-inline: 18.5px;
     position: relative;
     right: 4.7px;
     top: 15px;
 }
 
+#bottomLink2 {
+    padding-inline: 47px;
+    position: relative;
+    right: 4.7px;
+    top: 15px;
+}
+
+#bottomLink3 {
+    padding-inline: 61.5px;
+    position: relative;
+    top: 15px;
+}
+
 .videoGame {
     font-family: 'press start 2p';
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
+
+#devLog {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 15px;
+
+    font-weight: 300;
+    font-size: 14px;
+}
+
+details {
+    display:inline-block; /* collapses width to what's necessary */
+    padding-bottom: 30px;
+}
+
+summary {
+    cursor: pointer;
 }
