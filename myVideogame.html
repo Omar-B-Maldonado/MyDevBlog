@@ -3,7 +3,6 @@
     <head>
         <title>Omar's Dev Blog</title>
         <link rel="stylesheet" href="styles.css">
-        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono&display=swap" rel="stylesheet">
@@ -11,25 +10,70 @@
     <body>
         <section>
             <h1 class = "title">My personal videogame project</h1>
-            <p>
-                This the project I'm working on in my videogame programming class.
+            
+            <p>This the project I'm working on in my videogame programming class.
+                It's an RPG game that focuses on turn-based combat. It's coded in 
+                Java via Eclipse IDE.
             </p>
+
+            <img src = "https://media.tenor.com/YU-olec7SVIAAAAC/punching-keyboard-rage-gamer.gif">
+            
+            <br>
+            <br>
+            <h6>(Screenshots of development will go here)</h5>
+            <!--I want to try to make the screenshots have a selection of multiple images in one left to right catalog-->
+
+            <h6>(the videogame's title and release-date are still TBA)</h4>
+
         </section>
-        <div>
+        
+        <div class = developmentLog>
             <h2 class = "title">Development Log</h2>
-            <details>
-                <summary><span class = "underline">Version 0.00.00</span></summary>
-                <p id = "devLog">At this stage, the videogame is merely a collection of thoughts and ideas.
-                     One of my main inspirations is <a href = "https://store.steampowered.com/app/913740/WORLD_OF_HORROR/">World of Horror</a>.
-                </p>
-            </details>
+           
+            <section id = "logContainer">
+                <details class = "logEntry">
+                   
+                    <summary><span class = "versionTitle">Version 0.00.01</span></summary>
+                    
+                    <h6>MO DA, YYYY</h6>
+
+                    <p id = "logContent">
+                        Hello World! I was just born. I am the youngest entry. I also have the largest Version number.
+                        Younger entries will be placed above older ones. I am a prime example. The entry below me
+                        is older than me.
+                    </p>
+
+                </details>
+
+                <details class = "logEntry">
+                    
+                    <summary><span class = "versionTitle">Version 0.00.00</span></summary>
+
+                    <h6>September 17, 2023</h6>
+
+                    <p id = "logContent">At this stage, the videogame is merely a collection of thoughts and ideas.
+                        One of my main inspirations is <a href = "https://store.steampowered.com/app/913740/WORLD_OF_HORROR/">World of Horror</a>.
+                        Another is the <a href = "https://www.pokemon.com/us">Pokémon</a> franchise. I'm not certain whether I want my
+                        character to be able to roam around, or if I want the interface to be click-based. I'm only certain that I will focus
+                        on a turn-based combat system similar to the videogames that inspire me. So far, I'm only able to create and manipulate
+                        some rectangles in a Jframe window. I will return with more when I'm farther along the idea, learning, and development 
+                        process.
+                    </p>
+
+                </details>
+
+                <a class = "versionTitle" href = "myOlderEntries.html">View older entries</a>
+          
+            </section>
         </div>
 
 
         <div id = "myContainer" class = "gamesContainer">
+            
             <a class = "mainPgLinks" href ="groupVideogame.html">My group videogame project</a>
-            <br>
+
             <a id = "bottomLink2" class = "mainPgLinks" href ="index.html">Back to main page</a>
+
         </div>
     </body>
 

@@ -87,10 +87,12 @@ img {
 
 #groupContainer {
     padding-right: 15px;
+    margin-bottom: 30px;
 }
 
 #myContainer {
     width: 325px;
+    margin-bottom: 30px;
 }
 
 .mainPgLinks {
@@ -115,51 +117,64 @@ img {
 
     display: inline-block;
     z-index: 1;
+
 }
 
 #bottomLink1 {
-    padding-inline: 18.5px;
+    padding-inline: 18.5px; /*fills in empty outline space around text*/
     position: relative;
-    right: 4.7px;
     top: 15px;
 }
 
 #bottomLink2 {
     padding-inline: 47px;
     position: relative;
-    right: 4.7px;
     top: 15px;
 }
 
 #bottomLink3 {
     padding-inline: 61.5px;
     position: relative;
-    top: 15px;
+    top: 15px;              /*adds space between pseudo buttons */
 }
 
 .videoGame {
     font-family: 'press start 2p';
 }
 
-.underline {
-    text-decoration: underline;
-    text-decoration-thickness: 1.5px;
+summary {
+    padding-bottom: 10px;   /*spacing between log version clickables*/
 }
 
-#devLog {
-    padding-bottom: 5px;
-    padding-top: 5px;
-    margin-top: 15px;
+.versionTitle {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    cursor: pointer;
+}
+
+h6 {                        /*log date*/
+    opacity: 50%;
+    padding-top:0;
+    padding-bottom:0;
+
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#logContent {               /*actual log entry text */
+    padding-bottom: 15px;
+    padding-top: 0px;
+    margin-top: 5px;
 
     font-weight: 300;
     font-size: 14px;
 }
 
-details {
-    display:inline-block; /* collapses width to what's necessary */
-    padding-bottom: 30px;
+#logContainer {             /*container for log entries that does not include the title*/
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
-summary {
-    cursor: pointer;
+#backFunnyHolder {
+    margin-top: 40px;
 }
