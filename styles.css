@@ -1,4 +1,4 @@
-* {
+html {
     font-family: monospace, serif;
     text-align:center;
     background-color:floralwhite;
@@ -22,10 +22,13 @@ h1 {
     outline-style: none;
     background:none;
     
-    position: fixed;
-    z-index: 1;
+    position: absolute;
     top: 0px;
     rotate: -10deg;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    
     right: 50.2%;
     left:  49.8%;
 }
@@ -96,7 +99,6 @@ img {
 }
 
 .mainPgLinks {
-    background-color:rgb(40, 40, 40);
 
     font-family: "press start 2p";
     font-size: 9px;
@@ -150,6 +152,11 @@ summary {
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
     cursor: pointer;
+    color: black;
+}
+
+a{
+    color:black;
 }
 
 h6 {                        /*log date*/
